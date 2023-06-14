@@ -1,0 +1,31 @@
+.gallery {
+    background-color: white;
+
+    &__title {
+        padding-top: 101px;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #D67E34;
+        text-align: center;
+    }
+
+    &__redline{
+        padding-top: 59px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__img{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

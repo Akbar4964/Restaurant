@@ -1,0 +1,53 @@
+.order {
+    background-image: url(/img/orderimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 357px;
+    margin-top: 122px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    &__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 52px;
+        line-height: 60px;
+        color: #D67E34;
+        max-width: 601px;
+        padding-top: 80px;
+    }
+
+    &__head {
+        padding-top: 20px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+    }
+
+    &__btns {
+        button {
+            display: flex;
+            align-items: center;
+            margin-top: 105px;
+            justify-content: center;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 19px;
+            color: #FFFFFF;
+            background: #FF7400;
+            height: 47px;
+            width: 157px;
+        }
+    }
+}

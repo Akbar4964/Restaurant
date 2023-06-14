@@ -1,0 +1,38 @@
+.meal {
+    background-color: white;
+    margin-top: 132px;
+
+    &__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #D67E34;
+        text-align: center;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        margin-top: 143px;
+    }
+
+    &__imgs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    &__cost {
+        margin-left: 17px;
+        max-width: 400px;
+        p {
+            display: flex;
+            align-items: center;
+            margin: 125px 0;
+        }
+    }
+}

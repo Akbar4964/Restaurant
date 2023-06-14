@@ -1,0 +1,95 @@
+.menu {
+    background-image: url(/img/menubachgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1034px;
+    margin-top: 152px;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 298px;
+    }
+
+    &__card {
+        width: 350px;
+        height: 510px;
+        background-color: white;
+        text-align: center;
+
+        img {
+            margin-top: 80px;
+        }
+    }
+
+    &__card-two {
+        width: 350px;
+        height: 510px;
+        background-color: white;
+        text-align: center;
+
+        img {
+            margin-top: 80px;
+        }
+    }
+
+    &__card-three {
+        width: 350px;
+        height: 510px;
+        background-color: white;
+        text-align: center;
+
+        img {
+            margin-top: 80px;
+        }
+    }
+
+    &__title {
+        padding-top: 16px;
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        color: #000000;
+    }
+
+    &__text {
+        padding-top: 17px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__btn {
+        padding-top: 20px;
+
+        button {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: center;
+            color: #FFFFFF;
+            height: 50px;
+            width: 220px;
+            background: #D67E34;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+            border: 0;
+            transition: 0.7s;
+        }
+
+        button:active {
+            background-image: linear-gradient(to right, rgb(208, 255, 0), orange, orangered, red);
+        }
+
+        button:hover {
+            background-color: blueviolet;
+        }
+    }
+}

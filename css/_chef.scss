@@ -1,0 +1,23 @@
+.chef {
+
+    margin-top: 100px;
+
+
+    &__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #D67E34;
+        text-align: center;
+    }
+
+    &__img{
+        padding-top: 107px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+}

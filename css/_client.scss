@@ -1,0 +1,40 @@
+.client {
+    background-image: url(/img/clientbackgr.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+
+    &__text {
+        padding-top: 104px;
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+
+    &__head {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        color: #000000;
+    }
+
+    &__img{
+        padding-top: 76px;
+        text-align: center;
+    }
+}

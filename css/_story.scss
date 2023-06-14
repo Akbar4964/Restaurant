@@ -1,0 +1,49 @@
+.story {
+    background-color: white;
+    margin-top: 387px;
+    position: relative;
+
+    &__title {
+        font-family: 'Tinos';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 62px;
+        color: #D67E34;
+        text-align: center;
+    }
+
+    &__text {
+        padding-top: 21px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #656363;
+        max-width: 444px;
+    }
+
+    &__order {
+        margin-top: 39px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 54px;
+        text-align: center;
+        color: #BC9060;
+    }
+
+    &__content{
+        display: flex;   
+        align-items: center;
+        justify-content: center;
+        gap: 125px;
+    }
+}
